@@ -25,7 +25,7 @@ body {
     border-radius: 22px;
     padding: 26px;
     width: 100%;
-    max-width: 560px;
+    max-width: 640px;
     box-shadow: 0 18px 36px rgba(0,0,0,0.15);
     text-align: center;
 }
@@ -36,10 +36,16 @@ h1 {
     font-size: 22px;
 }
 
+h3 {
+    color: #ad1457;
+    margin-bottom: 6px;
+}
+
 p {
     line-height: 1.65;
     color: #555;
     font-size: 15px;
+    text-align: left;
 }
 
 button {
@@ -52,7 +58,7 @@ button {
     cursor: pointer;
     margin-top: 14px;
     width: 100%;
-    max-width: 320px;
+    max-width: 360px;
 }
 
 .secondary {
@@ -69,7 +75,7 @@ button {
     background: #fff3f7;
     border-radius: 14px;
     padding: 12px 14px;
-    margin-top: 10px;
+    margin-top: 12px;
     font-size: 14px;
 }
 
@@ -119,41 +125,93 @@ button {
 
 <h1>Maybeline Pineda ✨</h1>
 
-<p>
-Preparé esto con tiempo, intención y cariño.  
-Si estás lista para descubrirlo, toca un botón.
+<p style="text-align:center;">
+Preparé esta carta interactiva con intención, memoria y cariño.  
+Toca un botón para abrir un capítulo.
 </p>
 
-<button onclick="toggleMensaje()">Descubrir mensaje 💗</button>
-<button class="secondary" onclick="toggleSecreto()">Otro mensaje secreto 🔐</button>
+<button onclick="toggleMensaje()">Capítulo 1 — Cómo me enamoré 💗</button>
+<button class="secondary" onclick="toggleSecreto()">Capítulo 2 — Nuestro recorrido 🔐</button>
 
 <div id="mensaje" class="hidden">
 
+<h3>Nuestro origen y cómo me fui enamorando de ti</h3>
+
+<div class="memory"><strong>1️⃣ Cómo comenzó todo</strong></div>
 <p>
-Admiro tu forma de ser, tu sensibilidad y tu fortaleza cuando todo pesa y aun así sigues avanzando.
+Ni siquiera sabía con claridad de dónde veníamos ni todo lo que compartíamos alrededor.
+Las primeras interacciones fueron técnicas, por trabajo, entre configuraciones y temas de cliente en Vesta.
+No fui el más amable ni el más empático al inicio, porque suelo decir lo que pienso sin mucho filtro.
 </p>
 
 <p>
-Te pido perdón. No siempre he estado listo, pero sí he estado preparándome para amarte mejor.
-He ido soltando cargas para poder recibirte con los brazos abiertos.
+Desde abril de 2025 empezamos a tratarnos más de cerca, más personal.
+Entre conversaciones, relajo, primeras indignaciones y bromas, fuimos siendo nosotros,
+sin imaginar lo que podía nacer ahí, aun con imprevistos y cosas en contra.
+Lo puro se sostiene aun cuando el horizonte se ve nublado.
 </p>
 
 <p>
-La vida no siempre tiene culpables, muchas veces solo procesos.  
-Yo elijo crecer con intención real.
+Compartimos postres, comidas, cine, risas y juegos como niños.
+Decíamos que no estábamos en la misma sintonía,
+pero vibrábamos en frecuencia parecida.
+Ingeniería emocional con chistes incluidos.
+</p>
+
+<div class="memory"><strong>2️⃣ Gracias por lo que provocaste en mí</strong></div>
+<p>
+Sin darte cuenta, me diste soporte en momentos donde me tocaba ser fuerte.
+Conoces partes de mí que casi nadie conoce.
+Crecí creyendo que debía ser duro siempre,
+pero contigo apareció una luz inesperada.
 </p>
 
 <p>
-Esto lo preparé porque prometimos mejorar incluso en programación.  
-Esta es mi prueba.  
-La crack sos vos.  
-Yo intento ser mejor por amor, porque encontré paz en vos.
+Tu amor llegó sin que yo lo pidiera.
+Movió cosas dentro de mí.
+He estado trabajando en silencio para ser mejor versión,
+para convertirme en alguien que pueda sostener y cuidar.
+Gracias por estabilizar parte de mi caos.
+</p>
+
+<div class="memory"><strong>3️⃣ Cómo entendí que me enamoré</strong></div>
+<p>
+Amar es decidir cada día hacer algo bueno por la otra persona.
+Yo soy resistente a los cambios emocionales,
+pero con vos entendí que no tengo que ser fuerte por obligación.
+Con vos puedo ser ese niño que creció rápido. Así como vos, la
+Niña más fuerte, dejando de lado la alegría que todo niño debe tener.
+</p>
+
+<p>
+Ahí empecé a enamorarme.
+Encontré propósito, alegría y paz.
+Cuando no lo digo con palabras,
+mis gestos lo dicen por mí.
+Soy un loco que intenta nivelar el caos con amor.
+Sos lo más lindo, Papoi.
+</p>
+
+<div class="memory"><strong>4️⃣ Lo que hoy quiero decirte</strong></div>
+<p>
+Te pido perdón.
+No siempre he estado listo,
+pero sí he estado preparándome para amarte mejor.
+He soltado pesos y miedos para recibirte con los brazos abiertos.
+</p>
+
+<p>
+Esto es mi prueba.
+Prometimos mejorar incluso en programación.
+Esta pequeña carta-código es mi obra sencilla.
+La crack sos vos.
+Encontré paz en vos.
 </p>
 
 <div class="phrase">“Caugh, caugh, caugh”</div>
 
 <div class="signature">
-Con el corazón abierto,<br>
+Con el corazón abierto, para ti,<br>
 Rony O. 💌
 </div>
 
@@ -168,12 +226,12 @@ Rony O. 💌
 <div class="memory">Las conciliaciones y el amor que eligió quedarse.</div>
 
 <div class="memory">
-Hoy puede haber silencio. Mañana no sabemos.  
+Hoy puede haber silencio. Mañana no sabemos.
 Que pase lo que pase, tengamos paz.
 </div>
 
 <div class="memory">
-Si te doy paz, sostenela.  
+Si te doy paz, sostenela.
 Y si no, recíbela igual de la vida. 💗
 </div>
 
@@ -246,4 +304,5 @@ function intentarPlay() {
 
 </body>
 </html>
+
 
